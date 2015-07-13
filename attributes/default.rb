@@ -28,5 +28,5 @@ when 'windows'
   default['virtualbox']['url'] = 'http://download.virtualbox.org/virtualbox/4.2.12/VirtualBox-4.2.12-84980-Win.exe'
   default['virtualbox']['version'] = Vbox::Helpers.vbox_version(node['virtualbox']['url'])
 when 'debian', 'rhel', 'fedora'
-  default['virtualbox']['version'] = '4.3'
+  default['virtualbox']['version'] = '5.0'
 end
