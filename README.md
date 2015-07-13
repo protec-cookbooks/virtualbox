@@ -6,6 +6,13 @@ Installs Virtualbox on OS X, Debian/Ubuntu or Windows.
 Changes
 =======
 
+## v1.0.4
+* Add chefignore
+
+## v1.0.3
+
+* Update `yum` dependency to version 3
+
 ## v1.0.2
 
 * Changed libshadow-ruby18 dependency to ruby-shadow gem
